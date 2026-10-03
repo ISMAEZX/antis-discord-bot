@@ -1,0 +1,24 @@
+{
+  "name": "antis-discord-bot",
+  "version": "1.0.0",
+  "description": "Antis bot for detecting and removing unauthorized Discord invite links.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "invite",
+    "moderation",
+    "sqlite"
+  ],
+  "author": "ISMAEZX",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "discord.js": "^14.16.0",
+    "dotenv": "^16.4.1"
+  }
+}
